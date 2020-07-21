@@ -13,10 +13,10 @@ function whileLoop(n){
 }
 function doWhileLoop(num){
 
-  function decrementVariable() {
-    return --num
+  function incrementVariable() {
+    return ++num
   }
   do{
     console.log("I run once regardless.")
-  }while(decrementVariable()>0)
+  }while(incrementVariable()<num)
 }
